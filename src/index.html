@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font.css">
+    <title>Dashboard | Shoso</title>
+</head>
+<body>
+    <aside class="bg-white w-[370px] h-full flex flex-col">
+        <div class="flex-shrink-0">
+            <div class="ps-[40px] pt-[40px] flex items-center gap-x-[20px]">
+                <div>
+                    <a href="">
+                        <img src="assets/images/logos/logo.svg" alt="" class="w-[52px] h-[50px]">
+                    </a>
+                </div>
+                <div>
+                    <p class="text-[18px] font-semibold text-[#131E3F]">Shoe Store</p>
+                    <p class="text-[14px] font-normal mt-[2px] text-[#9E9E9E]">Comfortable on the feet</p>
+                </div>
+            </div>
+            <hr class="mt-[40px] w-[370px] border-[#F2F2F2]">
+        </div>
+
+        <div class="h-full flex-1 overflow-y-auto scrollbar-hide pb-[60px] flex flex-col">
+            <div class="flex-1">
+                <div class="mt-[40px]">
+                    <ul class="flex flex-col">
+                        <li>
+                            <a href="">
+                                <div class="bg-gradient-to-r from-[#F3F5FF] to-[#D4DBFF]/0 flex items-center">
+                                    <div class="w-[6px] h-[47px] bg-[#2579D1] rounded-tr-[4px] rounded-br-[4px]"></div>
+                                    <div class="ps-[34px] flex items-center gap-x-[18px] py-[10px]">
+                                        <img src="assets/images/icons/marketplace-blue.svg" alt="" class="w-[24px] h-[24px]">
+                                        <p class="text-[#2579D1] text-[18px] font-medium">Marketplace</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="group">
+                            <a href="">
+                                <div class="flex items-center group-hover:bg-gradient-to-r from-[#F3F5FF] to-[#D4DBFF]/0 transition-all duration-300">
+                                    <div class="hidden w-[6px] h-[47px] bg-[#2579D1] rounded-tr-[4px] rounded-br-[4px] group-hover:block transition-all duration-300"></div>
+                                    <div class="ps-[40px] flex items-center gap-x-[18px] py-[10px] group-hover:ps-[34px] transition-all duration-300">
+                                        <img src="assets/images/icons/explore.svg" alt="" class="w-[24px] h-[24px] group-hover:hidden transition-all duration-300">
+                                        <img src="assets/images/icons/explore-blue.svg" alt="" class="w-[24px] h-[24px] hidden group-hover:block transition-all duration-300">
+                                        <p class="text-[#66696F] text-[18px] font-normal group-hover:text-[#2579D1] group-hover:font-medium transition-all duration-300">Explore Product</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="group">
+                            <a href="">
+                                <div class="flex items-center group-hover:bg-gradient-to-r from-[#F3F5FF] to-[#D4DBFF]/0 transition-all duration-300">
+                                    <div class="hidden w-[6px] h-[47px] bg-[#2579D1] rounded-tr-[4px] rounded-br-[4px] group-hover:block transition-all duration-300"></div>
+                                    <div class="ps-[40px] flex items-center gap-x-[18px] py-[10px] group-hover:ps-[34px] transition-all duration-300">
+                                        <img src="assets/images/icons/shoe.svg" alt="" class="w-[24px] h-[24px] group-hover:hidden transition-all duration-300">
+                                        <img src="assets/images/icons/shoe-blue.svg" alt="" class="w-[24px] h-[24px] hidden group-hover:block transition-all duration-300">
+                                        <p class="text-[#66696F] text-[18px] font-normal group-hover:text-[#2579D1] group-hover:font-medium transition-all duration-300">Shoe Auction</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mt-[50px] pe-[40px]">
+                    <p class="text-[18px] text-[#131E3F] font-medium ps-[40px]">My Account</p>
+                    <ul class="mt-[10px]">
+                        <li class="group">
+                            <a href="">
+                                <div class="flex items-center group-hover:bg-gradient-to-r from-[#F3F5FF] to-[#D4DBFF]/0 transition-all duration-300">
+                                    <div class="hidden w-[6px] h-[47px] bg-[#2579D1] rounded-tr-[4px] rounded-br-[4px] group-hover:block transition-all duration-300"></div>
+                                    <div class="w-full flex items-center justify-between">
+                                        <div class="ps-[40px] flex items-center gap-x-[18px] py-[10px] group-hover:ps-[34px] transition-all duration-300">
+                                            <img src="assets/images/icons/bag.svg" alt="" class="w-[24px] h-[24px] group-hover:hidden transition-all duration-300">
+                                            <img src="assets/images/icons/bag-blue.svg" alt="" class="w-[24px] h-[24px] hidden group-hover:block transition-all duration-300">
+                                            <p class="text-[#66696F] text-[18px] font-normal group-hover:text-[#2579D1] group-hover:font-medium transition-all duration-300">Your Order</p>
+                                        </div>
+                                        <div class="bg-[#E9F6FF] w-auto h-auto flex items-center justify-center rounded-full px-[8px] py-[2px]">
+                                            <p class="text-[14px] text-[#2579D1] font-medium">2</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="group">
+                            <a href="">
+                                <div class="flex items-center group-hover:bg-gradient-to-r from-[#F3F5FF] to-[#D4DBFF]/0 transition-all duration-300">
+                                    <div class="hidden w-[6px] h-[47px] bg-[#2579D1] rounded-tr-[4px] rounded-br-[4px] group-hover:block transition-all duration-300"></div>
+                                    <div class="w-full flex items-center justify-between">
+                                        <div class="ps-[40px] flex items-center gap-x-[18px] py-[10px] group-hover:ps-[34px] transition-all duration-300">
+                                            <img src="assets/images/icons/notification.svg" alt="" class="w-[24px] h-[24px] group-hover:hidden transition-all duration-300">
+                                            <img src="assets/images/icons/notification-blue.svg" alt="" class="w-[24px] h-[24px] hidden group-hover:block transition-all duration-300">
+                                            <p class="text-[#66696F] text-[18px] font-normal group-hover:text-[#2579D1] group-hover:font-medium transition-all duration-300">Notifications</p>
+                                        </div>
+                                        <div class="bg-[#E9F6FF] w-auto h-auto flex items-center justify-center rounded-full px-[8px] py-[2px]">
+                                            <p class="text-[14px] text-[#2579D1] font-medium">9</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="group">
+                            <a href="">
+                                <div class="flex items-center group-hover:bg-gradient-to-r from-[#F3F5FF] to-[#D4DBFF]/0 transition-all duration-300">
+                                    <div class="hidden w-[6px] h-[47px] bg-[#2579D1] rounded-tr-[4px] rounded-br-[4px] group-hover:block transition-all duration-300"></div>
+                                    <div class="ps-[40px] flex items-center gap-x-[18px] py-[10px] group-hover:ps-[34px] transition-all duration-300">
+                                        <img src="assets/images/icons/favorite.svg" alt="" class="w-[24px] h-[24px] group-hover:hidden transition-all duration-300">
+                                        <img src="assets/images/icons/favorite-blue.svg" alt="" class="w-[24px] h-[24px] hidden group-hover:block transition-all duration-300">
+                                        <p class="text-[#66696F] text-[18px] font-normal group-hover:text-[#2579D1] group-hover:font-medium transition-all duration-300">Favorite Shoes</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="group">
+                            <a href="">
+                                <div class="flex items-center group-hover:bg-gradient-to-r from-[#F3F5FF] to-[#D4DBFF]/0 transition-all duration-300">
+                                    <div class="hidden w-[6px] h-[47px] bg-[#2579D1] rounded-tr-[4px] rounded-br-[4px] group-hover:block transition-all duration-300"></div>
+                                    <div class="ps-[40px] flex items-center gap-x-[18px] py-[10px] group-hover:ps-[34px] transition-all duration-300">
+                                        <img src="assets/images/icons/setting.svg" alt="" class="w-[24px] h-[24px] group-hover:hidden transition-all duration-300">
+                                        <img src="assets/images/icons/setting-blue.svg" alt="" class="w-[24px] h-[24px] hidden group-hover:block transition-all duration-300">
+                                        <p class="text-[#66696F] text-[18px] font-normal group-hover:text-[#2579D1] group-hover:font-medium transition-all duration-300">Account Settings</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="w-full mt-auto min-mt">
+                <div>
+                    <div class="flex items-center justify-between pe-[40px]">
+                        <div class="flex items-center gap-x-[18px] px-[40px]">
+                            <img src="assets/images/icons/mode.svg" alt="" class="w-[24px] h-[24px] shrink-0">
+                            <p class="text-[18px] text-[#66696F]">Light Mode</p>
+                        </div>
+                        <div class="bg-[#F5F5F5] ps-[6px] pe-[4px] py-[3px] flex items-center gap-[4px] rounded-[100px]">
+                            <button class="cursor-pointer">
+                                <img src="assets/images/icons/dark-mode.svg" alt="" class="w-[24px] h-[24px] shrink-0">
+                            </button>
+                            <button class="cursor-pointer px-[9px] py-[4px] bg-white rounded-[100px]">
+                                <img src="assets/images/icons/white-mode.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="ps-[40px]">
+                        <p class="mt-[30px] text-[16px] tracking-[-0.5%] text-[#C5C5C5]">©2022 Shoe Store. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+    
+    <main class="px-[60px] pb-[60px] h-screen overflow-y-auto flex-1">
+        <nav class="flex items-start justify-between pt-[39px]">
+            <div class="flex items-center gap-[20px]">
+                <img src="assets/images/photos/profile.png" alt="" class="rounded-full w-[60px] h-[60px] object-cover object-top shrink-0">
+                <div>
+                    <h6 class="text-[26px] text-[#0B102C] font-semibold">Good Morning, Yeager</h6>
+                    <p class="text-[14px] text-[#9E9E9E] font-medium">Finish your profile.<span class="text-[#627EEA] ps-[6px]"><a href=""><span class="hover:underline transition-all duration-300">Edit now</span></a></span></p>
+                </div>
+            </div>
+            <div>
+                <div class="flex items-center gap-[20px]">
+                    <form action="">
+                        <div class="min-w-[250px] px-[20px] py-[13px] bg-white rounded-[12px] flex items-center gap-[6px] hover:ring-2 hover:ring-[#2579D1] focus-within:ring-2 focus-within:ring-[#2579D1] transition-all duration-300">
+                            <img src="assets/images/icons/search.svg" alt="" class="w-[24px] h-[24px] shrink-0">
+                            <input 
+                                type="text" 
+                                name="search" 
+                                id="search" 
+                                class="outline-none w-full h-full placeholder:text-[#66696F] placeholder:text-[14px] text-[14px] focus:outline-none" 
+                                placeholder="Search shoes"
+                            >
+                        </div>
+                    </form>
+                    <div>
+                        <a href="">
+                            <div class="w-[50px] h-[50px] bg-white rounded-full flex items-center justify-center hover:ring-2 hover:ring-[#2579D1] active:ring-2 active:ring-[#2579D1] transition-all duration-300">
+                                <img src="assets/images/icons/setting-dark-blue.svg" alt="" class="shrink-0 w-[24px] h-[24px] group-hover:opacity-80">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section class="mt-[60px]">
+            <div class="w-full flex items-center justify-between">
+                <h2 class="text-[24px] text-[#131E3F] font-semibold">Exclusive Product From Nike</h2>
+                <p class="text-[14px] text-[#2579D1] font-medium hover:underline transition-all duration-300">
+                    <a href="">View All Shoes</a>
+                </p>
+            </div>
+            <div class="flex flex-wrap items-start gap-[25px] mt-[20px]">
+                <div class="relative">
+                    <div class="bg-white p-[20px] rounded-[24px] relative z-50 hover:[&_.line-clamp-1]:line-clamp-none">
+                        <img src="assets/images/photos/nike_red_shoe.png" alt="" class="w-[260px] h-[180px] object-cover object-top rounded-[12px] shrink-0">
+                        <div class="mt-[10px] flex justify-between relative z-50">
+                            <div>
+                                <p class="text-[12px] text-[#9E9E9E]">7 Colours</p>
+                                <h6 class="text-[16px] text-[#131E3F] font-semibold mt-[2px] line-clamp-1 max-w-[160px] duration-300 transition-all break-words w-full">Nike Red Shoe</h6>
+                            </div>
+                            <div class="love-container pt-[9px]">
+                                <button type="button" class="love-button">
+                                    <img src="assets/images/icons/love-outline.svg" alt="Like" 
+                                         class="w-[24px] h-[24px] shrink-0 love-icon">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="mt-[17px] flex items-center justify-between relative z-50">
+                            <div>
+                                <p class="text-[12px] text-[#9E9E9E]">Price:</p>
+                                <h6 class="text-[18px] text-[#2579D1] font-semibold">Rp 220.000</h6>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <div class="px-[24px] py-[12px] bg-[#F6FAFD] border border-[#2579D1] text-[14px] font-medium text-[#2579D1] rounded-[12px] transition-all duration-300 hover:bg-[#2579D1] hover:text-white hover:border-[#2579D1]">Buy Now</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-[#EDF0F9] w-[236px] h-[313px] blur-[200px] absolute top-[51px] left-[32px] z-0"></div>
+                </div>
+                
+                <div class="bg-white p-[20px] rounded-[24px] relative hover:[&_.line-clamp-1]:line-clamp-none">
+                    <img src="assets/images/photos/nike_airforce.png" alt="" class="w-[260px] h-[180px] object-cover object-top rounded-[12px] shrink-0 relative z-50">
+                    <div class="mt-[10px] flex items-start justify-between relative z-50">
+                        <div>
+                            <p class="text-[12px] text-[#9E9E9E]">4 Colours</p>
+                            <h6 class="text-[16px] text-[#131E3F] font-semibold mt-[2px] line-clamp-1 break-words max-w-[160px] w-full duration-300 transition-all">Nike Airforce uHigh</h6>
+                        </div>
+                        <div class="love-container pt-[9px]">
+                            <button type="button" class="love-button">
+                                <img src="assets/images/icons/love-outline.svg" alt="Like" 
+                                     class="w-[24px] h-[24px] shrink-0 love-icon">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="mt-[17px] flex items-center justify-between relative z-50">
+                        <div>
+                            <p class="text-[12px] text-[#9E9E9E]">Price:</p>
+                            <h6 class="text-[18px] text-[#2579D1] font-semibold">Rp 250.000</h6>
+                        </div>
+                        <div class="">
+                            <a href="">
+                                <div class="px-[24px] py-[12px] bg-[#F6FAFD] border border-[#2579D1] text-[14px] font-medium text-[#2579D1] rounded-[12px] transition-all duration-300 hover:bg-[#2579D1] hover:text-white hover:border-[#2579D1]">Buy Now</div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="w-[270px] h-[278px] bg-[#EFECF0] blur-[200px] absolute top-[20px] left-[19px] z-30 rounded-bl-[24px] rounded-br-[24px]"></div>
+                </div>
+                
+                <div class="bg-white p-[20px] rounded-[24px] relative hover:[&_.line-clamp-1]:line-clamp-none">
+                    <img src="assets/images/photos/nike_kiger.png" alt="" class="w-[260px] h-[180px] object-cover object-top rounded-[12px] shrink-0 relative z-50">
+                    <div class="mt-[10px] flex items-start justify-between relative z-50">
+                        <div>
+                            <p class="text-[12px] text-[#9E9E9E]">2 Colours</p>
+                            <h6 class="text-[16px] text-[#131E3F] font-semibold mt-[2px] line-clamp-1 break-words max-w-[160px] w-full duration-300 transition-all">Nike Kiger 1 Mid</h6>
+                        </div>
+                        <div class="love-container pt-[9px]">
+                            <button type="button" class="love-button">
+                                <img src="assets/images/icons/love-outline.svg" alt="Like" 
+                                     class="w-[24px] h-[24px] shrink-0 love-icon">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="mt-[17px] flex items-center justify-between relative z-50">
+                        <div>
+                            <p class="text-[12px] text-[#9E9E9E]">Price:</p>
+                            <h6 class="text-[18px] text-[#2579D1] font-semibold">Rp 990.000</h6>
+                        </div>
+                        <div class="">
+                            <a href="">
+                                <div class="px-[24px] py-[12px] bg-[#F6FAFD] border border-[#2579D1] text-[14px] font-medium text-[#2579D1] rounded-[12px] transition-all duration-300 hover:bg-[#2579D1] hover:text-white hover:border-[#2579D1]">Buy Now</div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="w-[270px] h-[278px] bg-[#EFECF0] blur-[200px] absolute top-[20px] left-[19px] z-30 rounded-bl-[24px] rounded-br-[24px]"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-[60px]">
+            <div class="w-full">
+                <h2 class="text-[24px] text-[#131E3F] font-semibold">Best Store In This Month</h2>
+            </div>
+            <div class="flex items-start gap-[30px] mt-[20px]">
+                <div class="bg-white p-[25px] rounded-[24px]">
+                    <div class="flex items-center gap-[15px] relative z-40">
+                        <img src="assets/images/photos/adidas_1.png" alt="" class="w-[80px] h-[100px] object-cover object-center rounded-[12px] shrink-0">
+                        <div class="relative flex justify-center">
+                            <div class="relative flex justify-center z-50">
+                                <img src="assets/images/photos/adidas_2.png" alt="" class="w-[220px] h-[100px] object-cover object-center rounded-[12px] shrink-0">
+                                <div class=" flex items-center justify-center rounded-full w-[75px] h-[75px] bg-white/50 absolute top-[62px]">
+                                    <img src="assets/images/photos/adidas_logo.png" alt="" class="rounded-full w-[65px] h-[65px] object-cover object-center">
+                                </div>
+                            </div>
+                            <div class="bg-[#E9E9E9] w-[70px] h-[70px] top-[102px] blur-[67.24px]  rounded-full absolute z-40"></div>
+                        </div>
+                        <img src="assets/images/photos/adidas_3.png" alt="" class="w-[80px] h-[100px] object-cover object-center rounded-[12px] shrink-0">
+                    </div>
+                    <div class="mt-[52px]">
+                        <div class="flex items-start justify-between">
+                            <div>
+                                <div class="flex items-center gap-[2px]">
+                                    <h6 class="text-[18px] text-[#131E3F] font-semibold max-w-[140px] break-words w-full">Adidas Store</h6>
+                                    <img src="assets/images/icons/verified.svg" alt="" class="mt-[1.5px] w-[24px] h-[24px] shrink-0">
+                                </div>
+                                <p class="text-[12px] text-[#9E9E9E] mt-[2px]">@adidasindonesia</p>
+                            </div>
+                            <div class="flex items-center gap-[12px] pt-[3px]">
+                                <p class="text-[12px] text-[#2579D1] hover:underline duration-300 transition-all">
+                                    <a href="">Visit Store</a>
+                                </p>
+                                <div class="follow-container">
+                                    <button type="button" class="follow-button px-[16px] py-[10px] rounded-[100px] text-[12px] font-medium bg-[#2579D1] text-white transition-all">
+                                        +Follow
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-[#FBFBFB] mt-[20px] rounded-[12px] px-[20px] py-[14px] flex items-center gap-[31px]">
+                            <div class="">
+                                <h6 class="text-[16px] font-semibold text-[#152041]">1.569</h6>
+                                <p class="mt-[4px] text-[12px] text-[#748C9E]">Total shoes</p>
+                            </div>
+                            <div class="w-[1px] h-[46px] bg-[#EDEDED]"></div>
+                            <div class="">
+                                <h6 class="text-[16px] font-semibold text-[#152041]">5.2M</h6>
+                                <p class="mt-[4px] text-[12px] text-[#748C9E]">Total followers</p>
+                            </div>
+                            <div class="w-[1px] h-[46px] bg-[#EDEDED]"></div>
+                            <div class="">
+                                <h6 class="text-[16px] font-semibold text-[#152041]">56</h6>
+                                <p class="mt-[4px] text-[12px] text-[#748C9E]">Exclusive Shoe</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="bg-white p-[25px] rounded-[24px]">
+                    <div class="flex items-center gap-[15px] relative z-40">
+                        <img src="assets/images/photos/puma_1.png" alt="" class="w-[80px] h-[100px] object-cover object-center rounded-[12px] shrink-0">
+                        <div class="relative flex justify-center">
+                            <div class="relative flex justify-center z-50">
+                                <img src="assets/images/photos/puma_2.png" alt="" class="w-[220px] h-[100px] object-cover object-center rounded-[12px] shrink-0">
+                                <div class=" flex items-center justify-center rounded-full w-[75px] h-[75px] bg-white/50 absolute top-[62px]">
+                                    <img src="assets/images/photos/puma_logo.png" alt="" class="rounded-full w-[65px] h-[65px] object-cover object-center">
+                                </div>
+                            </div>
+                            <div class="bg-[#E9E9E9] w-[70px] h-[70px] top-[102px] blur-[67.24px]  rounded-full absolute z-40"></div>
+                        </div>
+                        <img src="assets/images/photos/puma_3.png" alt="" class="w-[80px] h-[100px] object-cover object-center rounded-[12px] shrink-0">
+                    </div>
+                    <div class="mt-[52px]">
+                        <div class="flex items-start justify-between">
+                            <div>
+                                <div class="flex items-center gap-[2px]">
+                                    <h6 class="text-[18px] text-[#131E3F] font-semibold w-full break-words max-w-[140px]">Puma Store</h6>
+                                    <img src="assets/images/icons/verified.svg" alt="" class=" w-[24px] h-[24px] shrink-0">
+                                </div>
+                                <p class="text-[12px] text-[#9E9E9E] mt-[2px]">@pumaid</p>
+                            </div>
+                            <div class="flex items-center gap-[12px] pt-[3px]">
+                                <p class="text-[12px] text-[#2579D1] hover:underline duration-300 transition-all">
+                                    <a href="">Visit Store</a>
+                                </p>
+                                <div class="follow-container">
+                                    <button type="button" class="follow-button px-[16px] py-[10px] rounded-[100px] text-[12px] font-medium bg-[#2579D1] text-white transition-all">
+                                        +Follow
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-[#FBFBFB] mt-[20px] rounded-[12px] px-[20px] py-[14px] flex items-center gap-[31px]">
+                            <div class="">
+                                <h6 class="text-[16px] font-semibold text-[#152041]">1.362</h6>
+                                <p class="mt-[4px] text-[12px] text-[#748C9E]">Total shoes</p>
+                            </div>
+                            <div class="w-[1px] h-[46px] bg-[#EDEDED]"></div>
+                            <div class="">
+                                <h6 class="text-[16px] font-semibold text-[#152041]">5.7M</h6>
+                                <p class="mt-[4px] text-[12px] text-[#748C9E]">Total followers</p>
+                            </div>
+                            <div class="w-[1px] h-[46px] bg-[#EDEDED]"></div>
+                            <div class="">
+                                <h6 class="text-[16px] font-semibold text-[#152041]">76</h6>
+                                <p class="mt-[4px] text-[12px] text-[#748C9E]">Exclusive Shoe</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<script src="main.js"></script>
+</body>
+</html>

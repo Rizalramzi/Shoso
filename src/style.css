@@ -1,0 +1,26 @@
+body{
+    background-color: #F8F9FD;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.love-button {
+    transition: all 0.3s ease;
+}
+.love-button:hover .love-icon {
+    transform: scale(1.1);
+}
+.love-button.active .love-icon {
+    transform: scale(1.1);
+}
+.love-icon {
+    transition: transform 0.2s ease;
+}
+.min-mt {
+    margin-top: 50px !important;
+}
